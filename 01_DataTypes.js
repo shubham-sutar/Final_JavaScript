@@ -33,3 +33,11 @@ const myString1 = "24.56";
 const myNum1 = parseFloat(myString1); // float
 console.log(myNum1);
 console.log(typeof myNum1)
+
+console.log(isNaN(34))
+
+result = "hello" / 2
+console.log(result) 
+
+result = 0.2 + 0.1
+console.log(result) 
