@@ -1,0 +1,37 @@
+---------------------------------------------------------
+JavaScript DataTypes
+1. Primitive DataType
+2. Object DataType
+
+Primitive DataType
+1. String
+2. Number
+3. Bigint 
+4. Boolean
+5. Null 
+6. Undefined
+7. Symbole
+
+Object DataType
+1. An array
+2. An object
+3. A date
+---------------------------------------------------------
+Truthy and Falsy Values in JavaScript
+
+Truthy Values
+• Truthy values are treated as true when used in codition.
+- true
+- Any non-empty string ("Hello")
+- Any non-zero number (24)
+- Array and object , even if they are not empty 
+
+Falsy Values
+• Falsy values are treated as false in boolean contexts.
+- false
+- 0 (zero)
+- An empty string ""
+- Null
+- Undefined
+- NaN (Not a Number)
+---------------------------------------------------------
