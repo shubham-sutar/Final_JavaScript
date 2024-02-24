@@ -28,3 +28,12 @@ num = 5
 for(let i = 1; i<=10; i++){
     console.log(`${i} x ${num} = ${num * i} `);
 }
+
+let userInput;
+
+
+do{
+    userInput = prompt(`Enter any positive number`)
+
+}while(isNaN(userInput) || userInput>0)
+console.log("you entered num is positive");
