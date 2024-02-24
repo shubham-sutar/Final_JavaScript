@@ -6,3 +6,16 @@ else{
     console.log("Your not eligible")
 }
 
+//Even or Odd number
+
+let num = "7.8";
+
+let number = parseInt(num)
+
+if (number % 2 == 0){
+    console.log(`${number} Number is Even`)
+
+}
+else{
+    console.log(`${number} Number is odd`)
+}
