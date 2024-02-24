@@ -32,8 +32,45 @@ for(let i = 1; i<=10; i++){
 let userInput;
 
 
-do{
-    userInput = prompt(`Enter any positive number`)
+// do{
+//     userInput = prompt(`Enter any positive number`)
 
-}while(isNaN(userInput) || userInput>0)
-console.log("you entered num is positive");
+// }while(isNaN(userInput) || userInput<0)
+// console.log("you entered num is positive");
+
+let sum  = 0;
+
+for(let i = 0 ; i<=10; i++){
+    sum = sum + i
+}
+
+console.log(sum)
+
+num = 14;
+isPrime = true;
+
+for(let i = 2; i < num; i++)
+{
+    if(num % i == 0){
+        isPrime = false;
+        break;
+    }
+}
+
+if(isPrime){
+    console.log("Num is prime")
+}else{
+    console.log("Num is not Prime")
+}
+
+for(let i = 1; i<10; i++)
+{
+    let pattern = "";
+
+    for(let j = 1; j<= i; j++)
+    {
+        pattern = pattern + "*"
+        
+    }
+    console.log(pattern)
+}
